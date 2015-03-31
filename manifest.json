@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "GoBackToGoogle",
+    "version": "0.0.1",
+    
+    "default_locale": "en",
+    "description": "Jumps back to the Google SERP when clicked",
+    "icons": {/* Icon .pngs go here */},
+    
+    "page_action": {
+        "default_icon": {                    // optional
+            "19": "images/icon19.png",           // optional
+            "38": "images/icon38.png"            // optional
+        },
+          "default_title": "Google Mail",      // optional; shown in tooltip
+          "default_popup": "popup.html"        // optional
+        },
+    
+    "minimum_chrome_version": "33",
+    "incognito": "split",
+    "offline_enabled": true,
+    
+    "permissions": [
+        "tabs", 
+        "webNavigation",
+    ],
+}
